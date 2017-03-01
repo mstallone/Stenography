@@ -771,6 +771,9 @@
                                                 <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="windowBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
+                                            <connections>
+                                                <action selector="encode:" target="XfG-lQ-9wD" id="1Ld-c2-cJ3"/>
+                                            </connections>
                                         </textField>
                                         <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Yit-sU-1sJ">
                                             <rect key="frame" x="338" y="18" width="84" height="25"/>

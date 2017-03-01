@@ -17,6 +17,8 @@
 @property (weak) IBOutlet NSImageView *outputView;
 @property (weak) IBOutlet NSTextField *messageField;
 
+- (void)showAlertWithTitle:(NSString *)title andMessage:(NSString *)message;
+
 - (IBAction)chooseSource:(id)sender;
 - (IBAction)sourceDragged:(id)sender;
 - (IBAction)saveOutput:(id)sender;

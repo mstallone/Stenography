@@ -9,10 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <Cocoa/Cocoa.h>
 
-@interface Stenography : NSObject {
-    NSInteger pixelsWide, pixelsHigh;
-    unsigned char *pixels;
-}
+@interface Stenography : NSObject 
 
 @property (nonatomic) NSBitmapImageRep *sourceBitmapRep;
 @property (nonatomic) NSWindow *window;
