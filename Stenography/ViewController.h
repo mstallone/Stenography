@@ -7,9 +7,22 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "Stenography.h"
 
-@interface ViewController : NSViewController
+@interface ViewController : NSViewController {
+    Stenography *engine;
+}
 
+@property (weak) IBOutlet NSImageView *sourceView;
+@property (weak) IBOutlet NSImageView *outputView;
+@property (weak) IBOutlet NSTextField *messageField;
+
+- (IBAction)chooseSource:(id)sender;
+- (IBAction)sourceDragged:(id)sender;
+- (IBAction)saveOutput:(id)sender;
+- (IBAction)resetData:(id)sender;
+
+- (IBAction)encode:(id)sender;
+- (IBAction)decode:(id)sender;
 
 @end
-
