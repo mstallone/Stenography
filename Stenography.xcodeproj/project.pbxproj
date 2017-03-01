@@ -10,8 +10,9 @@
 		34BB5E2D1E66776100F523DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BB5E2C1E66776100F523DD /* AppDelegate.m */; };
 		34BB5E301E66776100F523DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BB5E2F1E66776100F523DD /* main.m */; };
 		34BB5E331E66776100F523DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BB5E321E66776100F523DD /* ViewController.m */; };
-		34BB5E351E66776100F523DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34BB5E341E66776100F523DD /* Assets.xcassets */; };
 		34BB5E381E66776100F523DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34BB5E361E66776100F523DD /* Main.storyboard */; };
+		34BB5E411E668F2C00F523DD /* Stenography.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BB5E401E668F2C00F523DD /* Stenography.m */; };
+		34CA24AB1E668FDB002A7C1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CA24AA1E668FDB002A7C1C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +22,11 @@
 		34BB5E2F1E66776100F523DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		34BB5E311E66776100F523DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		34BB5E321E66776100F523DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		34BB5E341E66776100F523DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34BB5E371E66776100F523DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34BB5E391E66776100F523DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34BB5E3F1E668F2C00F523DD /* Stenography.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stenography.h; sourceTree = "<group>"; };
+		34BB5E401E668F2C00F523DD /* Stenography.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stenography.m; sourceTree = "<group>"; };
+		34CA24AA1E668FDB002A7C1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +63,11 @@
 				34BB5E2C1E66776100F523DD /* AppDelegate.m */,
 				34BB5E311E66776100F523DD /* ViewController.h */,
 				34BB5E321E66776100F523DD /* ViewController.m */,
-				34BB5E341E66776100F523DD /* Assets.xcassets */,
+				34BB5E3F1E668F2C00F523DD /* Stenography.h */,
+				34BB5E401E668F2C00F523DD /* Stenography.m */,
 				34BB5E361E66776100F523DD /* Main.storyboard */,
 				34BB5E391E66776100F523DD /* Info.plist */,
+				34CA24AA1E668FDB002A7C1C /* Assets.xcassets */,
 				34BB5E2E1E66776100F523DD /* Supporting Files */,
 			);
 			path = Stenography;
@@ -135,8 +140,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34BB5E351E66776100F523DD /* Assets.xcassets in Resources */,
 				34BB5E381E66776100F523DD /* Main.storyboard in Resources */,
+				34CA24AB1E668FDB002A7C1C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34BB5E411E668F2C00F523DD /* Stenography.m in Sources */,
 				34BB5E331E66776100F523DD /* ViewController.m in Sources */,
 				34BB5E301E66776100F523DD /* main.m in Sources */,
 				34BB5E2D1E66776100F523DD /* AppDelegate.m in Sources */,
@@ -299,6 +305,7 @@
 				34BB5E3E1E66776100F523DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
